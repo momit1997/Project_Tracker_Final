@@ -1,0 +1,241 @@
+/* Filename - App.css*/
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  /* box-sizing: border-box; */
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+table {
+  /* border: 10px solid rgb(167, 234, 167); */
+  width: 100%;
+  height: 100px;
+  font-size: 12px;
+  /* font-weight: 450; */
+  font-family: Frutiger LT Pro;
+}
+ 
+th {
+  border-bottom: 1px solid black;
+}
+ 
+td {
+  text-align: center;
+}
+ 
+.main {
+  background: url(./Images/image\ 2.png) top center,
+    url(./Images/image\ 3.png) bottom center;
+ 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  padding: 140px 0px;
+  background-color: #0f1633;
+}
+.maindetails {
+  background: url(./Images/image\ 2.png) top center;
+  /* url(./Images/image\ 3.png) bottom center; */
+ 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  padding: 140px 20px;
+  background-color: #d9d9d9;
+  height: 130vh;
+}
+/* .main ::after {
+  content: "";
+  background: #0f1633 url(./Images/image\ 3.png) bottom center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: absolute;
+} */
+.container1 {
+  text-align: center;
+}
+.assig-outer {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 12.3px 0px rgba(0, 0, 0, 0.18);
+  display: inline-flex;
+  padding: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+/* body {
+  background-color: #0f1633;
+} */
+ 
+.mainheading {
+  color: #fff;
+  font-family: Frutiger LT Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.mainsearch {
+  color: #fff;
+  font-family: Frutiger LT Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.inputsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+.inputsection input {
+  height: 40px;
+  border: 3px solid #d9d9d9;
+  background: #fff;
+  margin-left: 30px;
+  border-radius: 0px;
+  padding: 0 10px;
+}
+.buttonsection {
+  display: flex;
+  width: 191px;
+  padding: 11px 95px;
+  justify-content: center;
+  align-items: center;
+  background: #0f1633;
+  color: #fff;
+  border: 0;
+  font-size: 24px;
+}
+ 
+/*
+.....Detailspage css.... */
+ 
+.headingcol {
+  background: #e7f4fc;
+}
+.headingcol th {
+  padding: 5px;
+}
+.trdetails td {
+  padding: 5px;
+}
+.searchset {
+  width: 100%;
+  display: flex;
+}
+.persondetails {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.persondetails-inner {
+  display: flex;
+  gap: 10px;
+}
+.extraspace {
+  margin: 8px;
+}
+ 
+h3.extraheading {
+  color: #363636;
+  font-family: Frutiger LT Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+.trdetails {
+  background: #fff;
+  font-weight: 450;
+}
+ 
+.searchdetailspage {
+  width: 50%;
+}
+ 
+.searchpage-inner input {
+  width: 75%;
+  height: 15px;
+  border: 0;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 40px;
+}
+.searchpage-inner button {
+  width: 15%;
+  height: 25px;
+  display: flex;
+  float: right;
+  align-items: center;
+  background: #0f1633;
+  color: #fff;
+  padding-left: 23px;
+  margin-top: 5px;
+}
+ 
+.searchback {
+  display: flex;
+  gap: 5px;
+}
+.searchback button {
+  border: 0;
+  color: #363636;
+  background-color: #d9d9d9;
+}
+button.downlode-section {
+  float: right;
+  display: flex;
+  padding: 3px;
+  margin: 0px;
+  background: #0f1633;
+  color: #fff;
+  font-family: "Frutiger LT Pro";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+ 
+button.showdetails-section {
+  float: right;
+  display: flex;
+  padding: 3px;
+  margin: 0px;
+  margin-bottom: 4px;
+  background: #0f1633;
+  color: #fff;
+  font-family: "Frutiger LT Pro";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+svg.arrowkey {
+  margin-top: -3px;
+}
+/* h2 {
+  margin-bottom: 0px;
+} */
